@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Ellipse has a area of " + e1.getarea());
 
-
+//for the rectangle, the sub-class extends a pre exisitng class which already contains varibles for "get area" and "get sides", it adds on width and height which allow the area to be correctly returned. the rectangle object is then given two attributes which are assigned.
 
 
     }
