@@ -1,14 +1,14 @@
 class Rectangle extends Shape {
-    private int width;
-    private int height;
+    private Double width;
+    private Double height;
 
-    public int getarea() {
+    public Double getarea() {
         return width * height;
 
     }
 
 
-    Rectangle(int width, int height) {
+    Rectangle(Double width, Double height) {
         super(4);
         this.height = height;
         this.width = width;

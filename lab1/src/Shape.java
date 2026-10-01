@@ -1,6 +1,5 @@
 abstract class Shape {
 
-
     private int sides;
 
 
@@ -12,12 +11,14 @@ abstract class Shape {
         this.sides = sides;
     }
 
-    abstract public int getarea();
+    abstract public Double getarea();
+
     Shape(int sides) {
         this.sides = sides;
     }
 
 
-
-
 }
+
+
+
