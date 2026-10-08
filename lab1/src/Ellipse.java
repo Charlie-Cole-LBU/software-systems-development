@@ -1,15 +1,16 @@
 public class Ellipse extends Rectangle {
-    private Double majorRadius;
-    private Double minorRadius;
+    private Double SemiMajorAxis;
+    private Double SemiMinorAxis;
 
     public Double getarea() {
-        return majorRadius * minorRadius * Math.PI;
+        return Math.PI * SemiMajorAxis * SemiMinorAxis;
+
     }
 
-    Ellipse(Double majorRadius, Double minorRadius) {
+    Ellipse(Double width, Double height) {
         super(0.0,0.0);
-        this.minorRadius = minorRadius;
-        this.majorRadius = majorRadius;
+        this.SemiMajorAxis = SemiMajorAxis;
+        this.SemiMinorAxis = SemiMinorAxis;
+    }
 
     }
-}
